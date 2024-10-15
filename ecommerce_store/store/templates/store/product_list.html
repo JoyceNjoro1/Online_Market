@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clothing Store</title>
+</head>
+<body>
+    <h1>Welcome to Our Clothing Store</h1>
+    <ul>
+        {% for dresses in products %}
+            <li>
+                <h2>{{ Long Silk Dress }}</h2>
+                <p>{{ sexy satin silk dress,offerng a flattering silhoutte}}</p>
+                <p>Price: ${{ Ksh 1,339 }}</p>
+                <p>Stock: {{ turkey new in}}</p>
+                <img src="{{ product.image.url }}" alt="{{ dresses }}" style="width: 200px;">
+            </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
